@@ -17,6 +17,7 @@ public class Hora {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(x2);
 		cal.add(Calendar.HOUR_OF_DAY, 4);
+		cal.add(Calendar.DAY_OF_MONTH, 2);
 		x2 = cal.getTime();
 		
 		System.out.println("Data atual x1: " + SDF1.format(x1));
